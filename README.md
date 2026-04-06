@@ -7,7 +7,7 @@ End-to-end data engineering pipeline using Azure Data Factory (HTTP ingestion), 
 
 
 ## 📌 Overview
-I have created this project from scratch and publihed it on my youtube channel : www.youtube.com/@DataToCrunch .
+I have created this project from scratch and published it on my YouTube Channel : www.youtube.com/@DataToCrunch .
 This project demonstrates a real-world, etl data pipeline built using Azure services and Databricks, based on the Amazon Prime Movies & TV Shows dataset.
 
 The pipeline simulates enterprise ingestion patterns by sourcing data from GitHub via HTTP and processing it through a Medallion Architecture.
@@ -51,7 +51,6 @@ Kaggle → GitHub → Azure Data Factory → ADLS (Bronze) → Databricks (Silve
 
 ### 🔹 Silver Layer
 - Data cleaning and transformation
-- Incremental processing using watermark logic
 - Deduplication and schema enforcement
 
 ### 🔹 Gold Layer
@@ -68,14 +67,8 @@ Kaggle → GitHub → Azure Data Factory → ADLS (Bronze) → Databricks (Silve
 - End-to-end pipeline using Azure ecosystem
 - HTTP-based ingestion using ADF
 - Medallion architecture (Bronze, Silver, Gold)
-- Incremental data processing
 - Delta Lake MERGE operations
 - Scalable and modular design
-
----
-
-## 📂 Project Structure
-(Add your folder structure here)
 
 ---
 
